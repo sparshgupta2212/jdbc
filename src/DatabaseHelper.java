@@ -19,7 +19,6 @@ public class DatabaseHelper extends connection{
         int row=pst.executeUpdate();
         return row>=1;
     }
-
     void display() throws SQLException {
         String sql = "select * from table_name";
         PreparedStatement pst = conn.prepareStatement(sql);
