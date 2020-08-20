@@ -18,9 +18,6 @@ public class DatabaseHelper extends connection{
         pst.setInt(2,bid);
         int row=pst.executeUpdate();
         return row>=1;
-
-
-
     }
 
     void display() throws SQLException {
