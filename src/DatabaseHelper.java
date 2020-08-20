@@ -1,7 +1,6 @@
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 public class DatabaseHelper extends connection{
     void insert(int id, String name) throws SQLException {
             String sql = "Insert into table_name values(?,?)";
